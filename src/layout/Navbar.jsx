@@ -25,15 +25,44 @@ export const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // 👇 Scroll spy for active section
+  useEffect(() => {
+  const handleScrollSpy = () => {
+    const scrollPosition = window.scrollY + window.innerHeight / 3;
+
+    let currentSection = "";
+
+    navLinks.forEach((link) => {
+      const section = document.querySelector(link.href);
+
+      if (section) {
+        const offsetTop = section.offsetTop;
+        const offsetHeight = section.offsetHeight;
+
+        if (
+          scrollPosition >= offsetTop &&
+          scrollPosition < offsetTop + offsetHeight
+        ) {
+          currentSection = link.href.slice(1);
+        }
+      }
+    });
+
+    setActiveSection(currentSection);
+  };
+
+  window.addEventListener("scroll", handleScrollSpy);
+  handleScrollSpy(); // run once on mount
+
+  return () => window.removeEventListener("scroll", handleScrollSpy);
+}, []);
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 transition-all duration-500 ${
         isScrolled ? "glass-strong py-3" : "bg-transparent py-5"
-      }  z-50`}
+      } z-50`}
     >
-      {/* ${
-        isScrolled ? "glass-strong py-3" : "bg-transparent py-5"
-      }  z-50`} */}
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
@@ -49,7 +78,11 @@ export const Navbar = () => {
               <a
                 href={link.href}
                 key={index}
-                className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface"
+                className={`px-4 py-2 text-sm rounded-full transition ${
+                  activeSection === link.href.slice(1)
+                    ? "text-foreground bg-surface"
+                    : "text-muted-foreground hover:text-foreground hover:bg-surface"
+                }`}
               >
                 {link.label}
               </a>
@@ -80,7 +113,11 @@ export const Navbar = () => {
                 href={link.href}
                 key={index}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="text-lg text-muted-foreground hover:text-foreground py-2"
+                className={`text-lg py-2 transition ${
+                  activeSection === link.href.slice(1)
+                    ? "text-foreground font-medium"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
               >
                 {link.label}
               </a>
