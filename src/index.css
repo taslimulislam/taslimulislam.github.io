@@ -44,6 +44,20 @@
 }
 
 @layer components {
+  .navbar-shell {
+    border: 1px solid transparent;
+    background-color: transparent;
+    backdrop-filter: blur(0);
+    transition: background-color 500ms ease, border-color 500ms ease,
+      backdrop-filter 500ms ease, padding 500ms ease;
+  }
+
+  .navbar-shell-scrolled {
+    background-color: color-mix(in srgb, var(--color-surface) 80%, transparent);
+    backdrop-filter: blur(24px);
+    border-color: color-mix(in srgb, var(--color-border) 60%, transparent);
+  }
+
   .glass {
     background-color: color-mix(in srgb, var(--color-surface) 50%, transparent);
     backdrop-filter: blur(16px);
