@@ -49,7 +49,8 @@ const expertiseData = [
         "SourceTree",
         "Jira",
         "ClickUp",
-        "DigitalOcean"
+        "DigitalOcean",
+        "Postman"
     ],
   },
   {
