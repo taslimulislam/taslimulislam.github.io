@@ -70,7 +70,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Sr. Software Engineer • Laravel Specialist
+                Software Engineer • Laravel Specialist
               </span>
             </div>
 
@@ -87,8 +87,8 @@ export const Hero = () => {
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
                 Hi, I'm Taslimul Islam — a Software Engineer specializing in
-                Laravel, CodeIgniter, Statamic CMS, Inertia.js, React, and TypeScript. I build scalable, high-performance web
-                applications with clean architecture, efficient backend systems, and seamless user experiences that users love.
+                Laravel, CodeIgniter, Statamic CMS, Inertia.js, React and TypeScript. I build scalable, high-performance web
+                applications with clean architecture, efficient backend systems and seamless user experiences that users love.
               </p>
             </div>
 
@@ -99,8 +99,8 @@ export const Hero = () => {
               </Button>
               <AnimatedBorderButton
                 className="w-full sm:w-auto"
-                href="/Taslimul_Senior_Software_Engineer_CV.pdf"
-                download="Taslimul_Senior_Software_Engineer_CV.pdf"
+                href="/Taslimul_Software_Engineer_CV.pdf"
+                download="Taslimul_Software_Engineer_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

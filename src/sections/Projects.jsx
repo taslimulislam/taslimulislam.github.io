@@ -31,7 +31,7 @@ const projects = [
   {
     title: "Martvill",
     description:
-      "A multivendor eCommerce platform offering product management, vendor control, and order tracking features.",
+      "A multivendor eCommerce platform offering product management, vendor control and order tracking features.",
     image: "/projects/martvill.png",
     tags: ["Laravel", "jQuery", "MySQL", "React", "Bootstrap"],
     link: "https://demo.martvill.techvill.net/",
@@ -40,7 +40,7 @@ const projects = [
   {
     title: "Hotel Management System",
     description:
-      "A complete hotel management solution including reservations, room service, and billing.",
+      "A complete hotel management solution including reservations, room service and billing.",
     image: "/projects/hotel.png",
     tags: ["CodeIgniter", "jQuery", "MySQL"],
     link: "https://xainhotellatest.bdtask-demo.com",
@@ -49,7 +49,7 @@ const projects = [
   {
     title: "Restaurant Management System",
     description:
-      "A web-based POS and restaurant management platform for managing orders, tables, and menus.",
+      "A web-based POS and restaurant management platform for managing orders, tables and menus.",
     image: "/projects/bhojon.png",
     tags: ["CodeIgniter", "jQuery", "MySQL"],
     link: "https://bhojonlatest.bdtask-demo.com/",

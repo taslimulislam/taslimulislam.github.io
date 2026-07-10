@@ -98,8 +98,8 @@ export const Expertise = () => {
 
           <p className="text-muted-foreground text-lg mt-8 max-w-3xl leading-relaxed">
             A strong combination of backend, frontend,
-            cloud, and AI to build scalable,
-            reliable, and high-performance applications.
+            cloud and AI to build scalable,
+            reliable and high-performance applications.
           </p>
         </div>
 

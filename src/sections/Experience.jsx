@@ -4,7 +4,7 @@ const experiences = [
     role: "Web Developer",
     company: "Theen LLC, Saudi Arabia",
     description:
-      "Developed and maintained scalable web applications using Laravel, React, TypeScript, Inertia.js, and Statamic CMS, while optimizing performance and development efficiency with AI-assisted tools.",
+      "Developed and maintained scalable web applications using Laravel, React, TypeScript, Inertia.js and Statamic CMS, while optimizing performance and development efficiency with AI-assisted tools.",
     technologies: ["Laravel", "MySQL", "React", "TypeScript", "Inertia.js", "Tailwind CSS", "Statamic CMS"],
     current: true,
   },
@@ -13,7 +13,7 @@ const experiences = [
     role: "Backend Developer",
     company: "Techvillage",
     description:
-      "Built and maintained scalable payment, AI, and e-commerce platforms using Laravel, React, jQuery, and MySQL, with a focus on backend solutions, RESTful APIs, database optimization, and reliable delivery.",
+      "Built and maintained scalable payment, AI and e-commerce platforms using Laravel, React, jQuery and MySQL, with a focus on backend solutions, RESTful APIs, database optimization and reliable delivery.",
     technologies: ["Laravel", "MySQL", "React", "JavaScript", "jQuery", "AJAX", "Bootstrap"],
     current: false,
   },
@@ -22,7 +22,7 @@ const experiences = [
     role: "PHP Developer",
     company: "Bdtask Limited",
     description:
-      "Developed and maintained ERP, newspaper, hotel, and restaurant management systems using CodeIgniter, Laravel, MySQL, and JavaScript, ensuring scalable solutions and strong database performance.",
+      "Developed and maintained ERP, newspaper, hotel and restaurant management systems using CodeIgniter, Laravel, MySQL and JavaScript, ensuring scalable solutions and strong database performance.",
     technologies: ["CodeIgniter", "Laravel", "MySQL", "JavaScript", "jQuery", "AJAX", "Bootstrap"],
     current: false,
   },
@@ -31,7 +31,7 @@ const experiences = [
     role: "Junior Web Developer",
     company: "Hrsoftbd",
     description:
-      "Built and maintained web applications using CodeIgniter, JavaScript, AJAX, Bootstrap, and CSS while supporting frontend development, testing, and system validation across multiple projects.",
+      "Built and maintained web applications using CodeIgniter, JavaScript, AJAX, Bootstrap and CSS while supporting frontend development, testing and system validation across multiple projects.",
     technologies: ["CodeIgniter", "JavaScript", "jQuery", "MySQL", "Bootstrap"],
     current: false,
   },
@@ -71,7 +71,7 @@ export const Experience = () => {
            animate-fade-in animation-delay-200"
           >
             A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            experienced engineer to building products at scale.
           </p>
         </div>
 

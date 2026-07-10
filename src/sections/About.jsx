@@ -50,15 +50,15 @@ export const About = () => {
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
                 I'm a passionate Software Engineer with over 5 years of experience building scalable web applications across ERP, 
-                E-commerce, Payment Systems, SaaS, CMS, and AI-powered platforms. My journey started with a strong interest 
+                E-commerce, Payment Systems, SaaS, CMS and AI-powered platforms. My journey started with a strong interest 
                 in backend development and problem-solving, which has grown into deep expertise in modern full-stack web 
                 technologies.
               </p>
 
               <p>
-                I specialize in PHP, Laravel, CodeIgniter, React, TypeScript, Inertia.js, and Statamic CMS, with strong 
-                experience in backend architecture, RESTful APIs, database optimization, and performance-focused development. 
-                I focus on creating clean, efficient, and reliable systems that deliver real business value.
+                I specialize in PHP, Laravel, CodeIgniter, React, TypeScript, Inertia.js and Statamic CMS, with strong 
+                experience in backend architecture, RESTful APIs, database optimization and performance-focused development. 
+                I focus on creating clean, efficient and reliable systems that deliver real business value.
               </p>
 
               <p>
@@ -70,7 +70,7 @@ export const About = () => {
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
                 "My mission is to build scalable digital solutions that are not only functional and high-performing, 
-                but also reliable, maintainable, and impactful—products that users trust and businesses depend on."
+                but also reliable, maintainable and impactful—products that users trust and businesses depend on."
               </p>
             </div>
           </div>
